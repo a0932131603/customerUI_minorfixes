@@ -54,7 +54,6 @@ function App() {
     };
     if (resturants.length === 0) {
       // console.log("into get resturants");
-
       getMenuData();
     }
   }, [resturants.length]);

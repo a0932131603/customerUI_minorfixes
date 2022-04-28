@@ -5,7 +5,7 @@ import Restaurant from "../Components/Restaurant";
 import { Typography, Rating } from "@mui/material";
 
 const Home = ({ resturants, setResturantID }) => {
-  const [hintText, setHintText] = useState("Select ypur resturant");
+  const [hintText, setHintText] = useState("Select your restaurant");
   const [ratingValue, setRatingValue] = useState(3);
 
   return (
@@ -60,7 +60,7 @@ const Home = ({ resturants, setResturantID }) => {
           />
         </div>
       ))} */}
-      <Typography component="legend">rate this resturant!</Typography>
+      <Typography component="legend">rate this restaurant!</Typography>
 
       <Rating
         name="simple-controlled"
